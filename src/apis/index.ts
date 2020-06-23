@@ -68,7 +68,6 @@ import * as compute from './compute';
 import * as container from './container';
 import * as containeranalysis from './containeranalysis';
 import * as content from './content';
-import * as customsearch from './customsearch';
 import * as datacatalog from './datacatalog';
 import * as dataflow from './dataflow';
 import * as datafusion from './datafusion';
@@ -83,6 +82,7 @@ import * as displayvideo from './displayvideo';
 import * as dlp from './dlp';
 import * as dns from './dns';
 import * as docs from './docs';
+import * as documentai from './documentai';
 import * as domainsrdap from './domainsrdap';
 import * as doubleclickbidmanager from './doubleclickbidmanager';
 import * as doubleclicksearch from './doubleclicksearch';
@@ -131,6 +131,7 @@ import * as osconfig from './osconfig';
 import * as oslogin from './oslogin';
 import * as pagespeedonline from './pagespeedonline';
 import * as people from './people';
+import * as playablelocations from './playablelocations';
 import * as playcustomapp from './playcustomapp';
 import * as plus from './plus';
 import * as policytroubleshooter from './policytroubleshooter';
@@ -245,7 +246,6 @@ export const APIS: APIList = {
   container: container.VERSIONS,
   containeranalysis: containeranalysis.VERSIONS,
   content: content.VERSIONS,
-  customsearch: customsearch.VERSIONS,
   datacatalog: datacatalog.VERSIONS,
   dataflow: dataflow.VERSIONS,
   datafusion: datafusion.VERSIONS,
@@ -260,6 +260,7 @@ export const APIS: APIList = {
   dlp: dlp.VERSIONS,
   dns: dns.VERSIONS,
   docs: docs.VERSIONS,
+  documentai: documentai.VERSIONS,
   domainsrdap: domainsrdap.VERSIONS,
   doubleclickbidmanager: doubleclickbidmanager.VERSIONS,
   doubleclicksearch: doubleclicksearch.VERSIONS,
@@ -308,6 +309,7 @@ export const APIS: APIList = {
   oslogin: oslogin.VERSIONS,
   pagespeedonline: pagespeedonline.VERSIONS,
   people: people.VERSIONS,
+  playablelocations: playablelocations.VERSIONS,
   playcustomapp: playcustomapp.VERSIONS,
   plus: plus.VERSIONS,
   policytroubleshooter: policytroubleshooter.VERSIONS,
@@ -419,7 +421,6 @@ export class GeneratedAPIs {
   container = container.container;
   containeranalysis = containeranalysis.containeranalysis;
   content = content.content;
-  customsearch = customsearch.customsearch;
   datacatalog = datacatalog.datacatalog;
   dataflow = dataflow.dataflow;
   datafusion = datafusion.datafusion;
@@ -434,6 +435,7 @@ export class GeneratedAPIs {
   dlp = dlp.dlp;
   dns = dns.dns;
   docs = docs.docs;
+  documentai = documentai.documentai;
   domainsrdap = domainsrdap.domainsrdap;
   doubleclickbidmanager = doubleclickbidmanager.doubleclickbidmanager;
   doubleclicksearch = doubleclicksearch.doubleclicksearch;
@@ -482,6 +484,7 @@ export class GeneratedAPIs {
   oslogin = oslogin.oslogin;
   pagespeedonline = pagespeedonline.pagespeedonline;
   people = people.people;
+  playablelocations = playablelocations.playablelocations;
   playcustomapp = playcustomapp.playcustomapp;
   plus = plus.plus;
   policytroubleshooter = policytroubleshooter.policytroubleshooter;
